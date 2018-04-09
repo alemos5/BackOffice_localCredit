@@ -263,7 +263,7 @@ if(isset(Yii::app()->user->id_perfil_sistema)){
 				
                                 <div id="<?php if(!Yii::app()->user->isGuest): echo 'herramienta'; else: echo 'disable';  endif ?>">
                                     <?php
-                                        $host= $_SERVER["HTTP_HOST"]."/localCredit";
+                                        $host= $_SERVER["HTTP_HOST"];
                                         $url= $_SERVER["REQUEST_URI"];
                                                                                 
 

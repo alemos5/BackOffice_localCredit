@@ -66,33 +66,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="644">
               <caret line="116" column="31" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="273" column="43" lean-forward="false" selection-start-line="273" selection-start-column="43" selection-end-line="273" selection-end-column="43" />
+            <state relative-caret-position="179">
+              <caret line="265" column="68" lean-forward="false" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1523291661847" expanded="true" signature="3144:3160" ph="..." />
-                <marker date="1523291661847" expanded="true" signature="6160:6176" ph="..." />
-                <marker date="1523291661847" expanded="true" signature="9458:9474" ph="..." />
-                <marker date="1523291661847" expanded="true" signature="12724:12740" ph="..." />
-                <marker date="1523291661847" expanded="true" signature="19168:19677" ph="..." />
-                <marker date="1523291661847" expanded="true" signature="19203:19321" ph="..." />
-                <marker date="1523291661847" expanded="false" signature="19347:19353" ph="©" />
-                <marker date="1523291661847" expanded="true" signature="19713:19742" ph="..." />
-                <marker date="1523291661847" expanded="true" signature="19713:19845" ph="..." />
-                <marker date="1523291661847" expanded="false" signature="19788:19794" ph="©" />
+                <marker date="1523303030966" expanded="true" signature="3144:3160" ph="..." />
+                <marker date="1523303030966" expanded="true" signature="6160:6176" ph="..." />
+                <marker date="1523303030966" expanded="true" signature="9458:9474" ph="..." />
+                <marker date="1523303030966" expanded="true" signature="12724:12740" ph="..." />
+                <marker date="1523303030966" expanded="true" signature="19153:19662" ph="..." />
+                <marker date="1523303030966" expanded="true" signature="19188:19306" ph="..." />
+                <marker date="1523303030966" expanded="false" signature="19332:19338" ph="©" />
+                <marker date="1523303030966" expanded="true" signature="19698:19727" ph="..." />
+                <marker date="1523303030966" expanded="true" signature="19698:19830" ph="..." />
+                <marker date="1523303030966" expanded="false" signature="19773:19779" ph="©" />
               </folding>
             </state>
           </provider>
@@ -112,7 +112,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>http://efectylogistic.com/logistico</find>
       <find>activarUsuario</find>
       <find>RegistarUsuario</find>
       <find>activar</find>
@@ -142,6 +141,7 @@
       <find>transacciones</find>
       <find>http://localhost/transacciones/</find>
       <find>transacc</find>
+      <find>http://localhost/localCredit/</find>
     </findStrings>
     <replaceStrings>
       <replace>https://telocomproenusa.com/controlcourier/</replace>
@@ -157,6 +157,7 @@
       <replace>transacciones</replace>
       <replace>#000000</replace>
       <replace>http://localhost/localCredit/</replace>
+      <replace>http://localcredit.blueservicesa.com.ar/</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/protected/controllers</dir>
@@ -220,9 +221,9 @@
         <option value="$PROJECT_DIR$/protected/views/operacion/_view.php" />
         <option value="$PROJECT_DIR$/protected/views/operacion/admin.php" />
         <option value="$PROJECT_DIR$/protected/views/operacion/_form.php" />
-        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
       </list>
     </option>
   </component>
@@ -370,12 +371,12 @@
       <workItem from="1522105415788" duration="3339000" />
       <workItem from="1522153774994" duration="2131000" />
       <workItem from="1522156108063" duration="128000" />
-      <workItem from="1523290240840" duration="4326000" />
+      <workItem from="1523290240840" duration="5000000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120353000" />
+    <option name="totallyTimeSpent" value="121027000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -388,9 +389,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="261" y="1080" width="1368" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29924244" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29924244" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901135" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -783,26 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="273" column="43" lean-forward="false" selection-start-line="273" selection-start-column="43" selection-end-line="273" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1523291661847" expanded="true" signature="3144:3160" ph="..." />
-            <marker date="1523291661847" expanded="true" signature="6160:6176" ph="..." />
-            <marker date="1523291661847" expanded="true" signature="9458:9474" ph="..." />
-            <marker date="1523291661847" expanded="true" signature="12724:12740" ph="..." />
-            <marker date="1523291661847" expanded="true" signature="19168:19677" ph="..." />
-            <marker date="1523291661847" expanded="true" signature="19203:19321" ph="..." />
-            <marker date="1523291661847" expanded="false" signature="19347:19353" ph="©" />
-            <marker date="1523291661847" expanded="true" signature="19713:19742" ph="..." />
-            <marker date="1523291661847" expanded="true" signature="19713:19845" ph="..." />
-            <marker date="1523291661847" expanded="false" signature="19788:19794" ph="©" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -813,9 +793,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="644">
           <caret line="116" column="31" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="265" column="68" lean-forward="false" selection-start-line="265" selection-start-column="68" selection-end-line="265" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1523303030966" expanded="true" signature="3144:3160" ph="..." />
+            <marker date="1523303030966" expanded="true" signature="6160:6176" ph="..." />
+            <marker date="1523303030966" expanded="true" signature="9458:9474" ph="..." />
+            <marker date="1523303030966" expanded="true" signature="12724:12740" ph="..." />
+            <marker date="1523303030966" expanded="true" signature="19153:19662" ph="..." />
+            <marker date="1523303030966" expanded="true" signature="19188:19306" ph="..." />
+            <marker date="1523303030966" expanded="false" signature="19332:19338" ph="©" />
+            <marker date="1523303030966" expanded="true" signature="19698:19727" ph="..." />
+            <marker date="1523303030966" expanded="true" signature="19698:19830" ph="..." />
+            <marker date="1523303030966" expanded="false" signature="19773:19779" ph="©" />
+          </folding>
         </state>
       </provider>
     </entry>

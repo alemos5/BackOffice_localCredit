@@ -3512,7 +3512,7 @@ Stack trace:
 #15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
 REQUEST_URI=/transacciones/usuario/RegistarUsuario
-HTTP_REFERER=http://localhost/localCredit/site/login
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/login
 ---
 2018/02/20 16:52:20 [error] [exception.CDbException] CDbException: CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1045] Access denied for user 'telocomp_env_ve'@'localhost' (using password: YES) in /var/www/framework/db/CDbConnection.php:382
 Stack trace:
@@ -3581,7 +3581,7 @@ Stack trace:
 #15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes/create
 ---
 2018/02/28 19:41:48 [error] [exception.CException] CException: La propiedad "Ordenes"."costo_env" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -3618,7 +3618,7 @@ Stack trace:
 #30 /var/www/transacciones/index.php(13): CApplication->run()
 #31 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes/admin
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes/admin
 ---
 2018/03/05 11:34:09 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[HY000]: General error: 1364 Field 'peli' doesn't have a default value. La sentencia SQL ejecutada fue: INSERT INTO `ordenes` (`code_cliente`, `tracking`, `courier`, `nombre_cliente`, `direccion_cliente`, `ciudad`, `telefono`, `tienda`, `alto`, `ancho`, `largo`, `peso`, `descripcion`, `costo`, `cost_env`, `numero_guia`, `env_email`, `id_ope`, `status`, `instrucciones`, `orden`, `fecha`, `cant`, `ware_reciept`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8, :yp9, :yp10, :yp11, :yp12, :yp13, :yp14, :yp15, :yp16, :yp17, :yp18, :yp19, :yp20, :yp21, :yp22, :yp23).
 in /var/www/transacciones/protected/controllers/OrdenesController.php (355)
@@ -3643,7 +3643,7 @@ Stack trace:
 #15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes/create
 ---
 2018/03/12 15:21:54 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/transacciones/protected/views/tarifaEnvioPais/_form.php:17
 Stack trace:
@@ -3670,7 +3670,7 @@ Stack trace:
 #20 /var/www/transacciones/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/transacciones/tarifaEnvioPais/create
-HTTP_REFERER=http://localhost/localCredit/tarifaEnvioPais/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/tarifaEnvioPais/index
 ---
 2018/03/12 15:22:30 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (/var/www/framework/web/helpers/CHtml.php:103)
 Stack trace:
@@ -3735,7 +3735,7 @@ Stack trace:
 #23 /var/www/transacciones/index.php(13): CApplication->run()
 #24 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes
 ---
 2018/03/12 17:13:37 [error] [system.db.CDbCommand] CDbCommand::fetch() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'codigo_pais' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `pais` `t` WHERE codigo_pais like "GM" LIMIT 1.
 in /var/www/transacciones/protected/views/ordenes/_form.php (137)
@@ -3771,7 +3771,7 @@ Stack trace:
 #25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes
 ---
 2018/03/12 17:16:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_pais' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55Array.
 in /var/www/transacciones/protected/views/ordenes/_form.php (138)
@@ -3807,7 +3807,7 @@ Stack trace:
 #25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes
 ---
 2018/03/12 17:16:28 [error] [exception.Error] Error: Unsupported operand types in /var/www/transacciones/protected/views/ordenes/_form.php:138
 Stack trace:
@@ -3835,7 +3835,7 @@ Stack trace:
 #21 /var/www/transacciones/index.php(13): CApplication->run()
 #22 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes
 ---
 2018/03/12 17:16:50 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDE BY tipo_envio ASC' at line 1. La sentencia SQL ejecutada fue: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55 ORDE BY tipo_envio ASC.
 in /var/www/transacciones/protected/views/ordenes/_form.php (138)
@@ -3871,7 +3871,7 @@ Stack trace:
 #25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes
 ---
 2018/03/12 17:17:18 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_pais' in 'where clause'. La sentencia SQL ejecutada fue: SELECT * FROM `tipo_envio` `t` WHERE id_pais =55.
 in /var/www/transacciones/protected/views/ordenes/_form.php (138)
@@ -3907,7 +3907,7 @@ Stack trace:
 #25 /var/www/transacciones/index.php(13): CApplication->run()
 #26 {main}
 REQUEST_URI=/transacciones/ordenes/create
-HTTP_REFERER=http://localhost/localCredit/ordenes
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/ordenes
 ---
 2018/03/22 16:37:07 [error] [system.db.CDbCommand] CDbCommand::fetchAll() falló: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'inmobiliaria.clientes' doesn't exist. La sentencia SQL ejecutada fue: SHOW FULL COLUMNS FROM `clientes`.
 in /var/www/transacciones/protected/views/site/index.php (19)
@@ -3935,7 +3935,7 @@ Stack trace:
 #17 /var/www/transacciones/index.php(13): CApplication->run()
 #18 {main}
 REQUEST_URI=/transacciones/
-HTTP_REFERER=http://localhost/localCredit/site/login
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/login
 ---
 2018/03/24 11:15:04 [error] [php] include(Clientes.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:427)
 Stack trace:
@@ -3966,7 +3966,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -3977,7 +3977,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -3988,7 +3988,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -3999,7 +3999,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4010,7 +4010,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4021,7 +4021,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4032,7 +4032,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4043,7 +4043,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4054,7 +4054,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4065,7 +4065,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4076,7 +4076,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4087,7 +4087,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4098,7 +4098,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4109,7 +4109,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4120,7 +4120,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4131,7 +4131,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:44 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4142,7 +4142,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4153,7 +4153,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4164,7 +4164,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4175,7 +4175,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4186,7 +4186,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4197,7 +4197,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4208,7 +4208,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4219,7 +4219,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4230,7 +4230,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4241,7 +4241,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:45 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4252,7 +4252,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4263,7 +4263,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4274,7 +4274,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4285,7 +4285,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4296,7 +4296,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4307,7 +4307,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4318,7 +4318,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:50:46 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4329,7 +4329,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:51:09 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4340,7 +4340,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4351,7 +4351,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4362,7 +4362,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4373,7 +4373,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4384,7 +4384,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/bootstrap/css/bootstrap.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:51:10 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4395,7 +4395,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:41 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4406,7 +4406,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4417,7 +4417,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4428,7 +4428,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4439,7 +4439,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:42 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4450,7 +4450,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4461,7 +4461,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4472,7 +4472,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4483,7 +4483,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4494,7 +4494,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:43 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4505,7 +4505,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4516,7 +4516,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4527,7 +4527,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4538,7 +4538,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:50 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4549,7 +4549,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/font-awesome/css/font-awesome.min.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:51 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "vendor" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4560,7 +4560,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/vendor/datatables/dataTables.bootstrap4.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/24 11:52:51 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "css" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4571,7 +4571,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/css/sb-admin.css
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/25 11:15:16 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4582,7 +4582,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/site/login
-HTTP_REFERER=http://localhost/localCredit/site/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/site/index
 ---
 2018/03/25 19:55:39 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "clientes/index" in /var/www/framework/web/CWebApplication.php:286
 Stack trace:
@@ -4591,7 +4591,7 @@ Stack trace:
 #2 /var/www/transacciones/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/transacciones/clientes/index
-HTTP_REFERER=http://localhost/localCredit/cuentaBancaria/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/cuentaBancaria/create
 ---
 2018/03/25 20:20:23 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "tarifaEnvio/index" in /var/www/framework/web/CWebApplication.php:286
 Stack trace:
@@ -4600,7 +4600,7 @@ Stack trace:
 #2 /var/www/transacciones/index.php(13): CApplication->run()
 #3 {main}
 REQUEST_URI=/transacciones/tarifaEnvio/index
-HTTP_REFERER=http://localhost/localCredit/producto/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/producto/index
 ---
 2018/03/26 13:10:52 [error] [exception.CHttpException.404] CHttpException: No es posible resolver la solicitud "GII" in /var/www/framework/web/CWebApplication.php:286
 Stack trace:
@@ -4643,7 +4643,7 @@ Stack trace:
 #28 /var/www/transacciones/index.php(13): CApplication->run()
 #29 {main}
 REQUEST_URI=/transacciones/banco/1
-HTTP_REFERER=http://localhost/localCredit/banco/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/banco/create
 ---
 2018/03/26 14:08:30 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ')' in /var/www/transacciones/protected/views/banco/view.php:26
 Stack trace:
@@ -4668,7 +4668,7 @@ Stack trace:
 #18 /var/www/transacciones/index.php(13): CApplication->run()
 #19 {main}
 REQUEST_URI=/transacciones/banco/1
-HTTP_REFERER=http://localhost/localCredit/banco/admin
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/banco/admin
 ---
 2018/03/26 15:21:32 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/transacciones/protected/views/cuentaBancaria/_form.php:18
 Stack trace:
@@ -4695,7 +4695,7 @@ Stack trace:
 #20 /var/www/transacciones/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/transacciones/cuentaBancaria/create
-HTTP_REFERER=http://localhost/localCredit/cuentaBancaria/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/cuentaBancaria/index
 ---
 2018/03/26 15:22:43 [error] [exception.ParseError] ParseError: syntax error, unexpected ';', expecting ',' or ')' in /var/www/transacciones/protected/views/cuentaBancaria/_form.php:18
 Stack trace:
@@ -4722,7 +4722,7 @@ Stack trace:
 #20 /var/www/transacciones/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/transacciones/cuentaBancaria/create
-HTTP_REFERER=http://localhost/localCredit/cuentaBancaria/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/cuentaBancaria/index
 ---
 2018/03/26 15:35:15 [error] [exception.Error] Error: Call to undefined function tipoCuenta() in /var/www/transacciones/protected/views/cuentaBancaria/view.php:33
 Stack trace:
@@ -4748,7 +4748,7 @@ Stack trace:
 #19 /var/www/transacciones/index.php(13): CApplication->run()
 #20 {main}
 REQUEST_URI=/transacciones/cuentaBancaria/1
-HTTP_REFERER=http://localhost/localCredit/cuentaBancaria/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/cuentaBancaria/create
 ---
 2018/03/26 15:35:39 [error] [exception.Error] Error: Call to undefined function tipoCuenta() in /var/www/transacciones/protected/views/cuentaBancaria/view.php:33
 Stack trace:
@@ -4774,7 +4774,7 @@ Stack trace:
 #19 /var/www/transacciones/index.php(13): CApplication->run()
 #20 {main}
 REQUEST_URI=/transacciones/cuentaBancaria/1
-HTTP_REFERER=http://localhost/localCredit/cuentaBancaria/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/cuentaBancaria/create
 ---
 2018/03/26 16:19:00 [error] [exception.CException] CException: La propiedad "Producto"."idTipoProductor" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -4812,7 +4812,7 @@ Stack trace:
 #31 /var/www/transacciones/index.php(13): CApplication->run()
 #32 {main}
 REQUEST_URI=/transacciones/producto/admin
-HTTP_REFERER=http://localhost/localCredit/producto/1
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/producto/1
 ---
 2018/03/26 16:32:54 [error] [exception.CException] CException: La propiedad "Producto"."productoc" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -4847,7 +4847,7 @@ Stack trace:
 #28 /var/www/transacciones/index.php(13): CApplication->run()
 #29 {main}
 REQUEST_URI=/transacciones/producto/index
-HTTP_REFERER=http://localhost/localCredit/tarifaProducto/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/tarifaProducto/create
 ---
 2018/03/26 16:33:42 [error] [exception.CException] CException: La propiedad "Producto"."productoc" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -4874,7 +4874,7 @@ Stack trace:
 #20 /var/www/transacciones/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/transacciones/producto/admin
-HTTP_REFERER=http://localhost/localCredit/producto/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/producto/index
 ---
 2018/03/26 16:33:57 [error] [exception.CException] CException: La propiedad "Producto"."productoc" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -4901,7 +4901,7 @@ Stack trace:
 #20 /var/www/transacciones/index.php(13): CApplication->run()
 #21 {main}
 REQUEST_URI=/transacciones/producto/admin
-HTTP_REFERER=http://localhost/localCredit/producto/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/producto/index
 ---
 2018/03/26 16:56:12 [error] [system.db.CDbCommand] CDbCommand::execute() falló: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '03/01/2018' for column 'fecha_operacion' at row 1. La sentencia SQL ejecutada fue: INSERT INTO `operacion` (`id_tipo_operacion`, `id_pais`, `monto_operacion`, `monto_cierre`, `id_moneda_origen`, `id_moneda_destino`, `fecha_operacion`, `id_cuenta_entrada`, `id_cuenta_salida`) VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
 in /var/www/transacciones/protected/controllers/OperacionController.php (72)
@@ -4926,7 +4926,7 @@ Stack trace:
 #15 /var/www/transacciones/index.php(13): CApplication->run()
 #16 {main}
 REQUEST_URI=/transacciones/operacion/create
-HTTP_REFERER=http://localhost/localCredit/operacion/create
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/operacion/create
 ---
 2018/03/26 17:09:41 [error] [exception.CException] CException: La propiedad "CuentaBancaria"."cuenta_bancaria" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -4954,7 +4954,7 @@ Stack trace:
 #21 /var/www/transacciones/index.php(13): CApplication->run()
 #22 {main}
 REQUEST_URI=/transacciones/operacion/1
-HTTP_REFERER=http://localhost/localCredit/operacion/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/operacion/index
 ---
 2018/03/26 20:53:39 [error] [exception.CHttpException.404] CHttpException: El sistema no ha podido encontrar la acción "site" solicitada. in /var/www/framework/web/CController.php:486
 Stack trace:
@@ -4965,7 +4965,7 @@ Stack trace:
 #4 /var/www/transacciones/index.php(13): CApplication->run()
 #5 {main}
 REQUEST_URI=/transacciones/site/site/login
-HTTP_REFERER=http://localhost/localCredit/tipoProducto/index
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/tipoProducto/index
 ---
 2018/03/26 20:53:43 [error] [exception.CException] CException: La propiedad "WebUser"."img" no se encuentra definida. in /var/www/framework/base/CComponent.php:130
 Stack trace:
@@ -4998,7 +4998,7 @@ Stack trace:
 #26 /var/www/transacciones/index.php(13): CApplication->run()
 #27 {main}
 REQUEST_URI=/transacciones/tipoProducto/index
-HTTP_REFERER=http://localhost/localCredit/tarifaProducto/update/1
+HTTP_REFERER=http://localcredit.blueservicesa.com.ar/tarifaProducto/update/1
 ---
 2018/03/27 10:08:07 [error] [php] include(Ordenes.php): failed to open stream: No such file or directory (/var/www/framework/YiiBase.php:427)
 Stack trace:
